@@ -1,0 +1,30 @@
+version: '3.7'
+services:
+  iapps-task:
+    image: iapps-task:1.0
+    restart: always
+    build:
+      context: .
+    ports:
+      - 8080:8080
+    networks:
+      - tatva-network
+    depends_on:
+      - task-db
+    environment:
+      MYSQL_HOST: task-db
+      MYSQL_USER: ravi
+      MYSQL_PASSWORD: Xe1234
+      MYSQL_PORT: 3306
+
+  task-db:
+    container_name: task-db
+    networks:
+      - tatva-network
+    build:
+      context: ./mysql
+    ports:
+      - "3306:3306"
+
+networks:
+  tatva-network:

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epaperRequest>
+    <deviceInfo name="Browser"
+                id="testcomp">
+        <screenInfo width="128"
+                    height="750"
+                    dpi="60"/>
+        <osInfo name="Browser"/>
+        <appInfo>
+            <newspaperName>abc</newspaperName>
+        </appInfo>
+    </deviceInfo>
+    <getPages editionDefId="11"
+              publicationDate="2023-07-14"/>
+</epaperRequest>

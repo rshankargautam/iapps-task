@@ -1,0 +1,11 @@
+<epaperRequest>
+    <deviceInfo name="android" id="tatva@comp">
+        <screenInfo width="1280" height="752" dpi="160" />
+        <osInfo name="android" version="13.0" />
+        <appInfo>
+            <newspaperName>abb</newspaperName>
+            <version>1.0</version>
+        </appInfo>
+    </deviceInfo>
+    <getPages editionDefId="11" publicationDate="2023-07-14" />
+</epaperRequest>
