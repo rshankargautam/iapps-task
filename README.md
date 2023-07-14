@@ -18,6 +18,7 @@ cd iapps-task
 ```sh
 docker-compose up
 ```
+- Now build the project with
 ```sh
 mvn clean package
 ```
